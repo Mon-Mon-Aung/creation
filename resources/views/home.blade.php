@@ -14,7 +14,7 @@
                         <h1> Welcome to the Ninja Network </h1>
                         <p>Click the button below to view the list of ninjas.</p>
                     </div>
-                    <a href="/ninjas" class="btn">
+                    <a href="{{ route('ninjas.index') }}" class="btn">
                         Find Ninjas!
                     </a>
                 </div>
